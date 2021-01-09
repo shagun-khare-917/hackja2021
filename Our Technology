@@ -1,1 +1,70 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <!-- TODO: Update the title of your website -->
+    <nav>
+      <ul>
+        <li><a href="tab1.html">Home</a></li>
+        <li><a href="SecondPage.html"> Our Mission </a></li>
+        <li><a href="tab4.html"> Why Choose Us </a></li>
+      </ul>
+    </nav>
+    
+    
+    <title> Our Technology </title>
+  </head>
+  <body>
+    
+    <!-- TODO: Update the heading with the name of your website -->
+    <h1 style = "text-align:center; font-size: 50px;"> Our Technology </h1> 
+    <style>
+    body, html {
+    height: 80%;
+    }
+    .parallax {
+      background-image: url("medical equipment.jpg");
+      height: 40%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
+    <div class="parallax"></div>
+    <div style="height:700px;background-color: #000080; color: white;">
+      <h1 style = "text-align:center; padding-top: 10px; font-family: Playfair Display; color:#40E0D0;">Our AI-Driven Software's Workflow</h2> 
+      <h2 style = "text-align: center;"> Equity Through Innovation. </h3> 
+      <p style = "text-align: center; font-size: 20px; color:rgb(64, 224, 208); padding-top: 10px; padding-right: 100px; padding-bottom: 10px; padding-left: 100px;"> These are the words that have guided the founding of our startup, HealthAInsights. We believe that healthcare is a right that everyone deserves no matter who they are and where they come from. To ensure equitable access to medical resources and equipment, our startup harnesses Artificial Intelligence on data to deliver valuable insights. With a special focus on low-income and hard-hit communities, our aim is to ensure effective resource allocation and supply chain management by manufacturing companies. </p>
+      <h3 style = "text-align: center; font-size: 20px;"> In the face of any health crisis, HealthAInsights will stand with humanity. </h3>
+      <ol>
+        <li> We work with research centers and reputable health organizations like the World Health Organization and Center for Disease Control. We pay them for data with the key breakdowns to create our own expansive database. </li>
+        <li> First, high risk areas at county level are identified based on COVID-19 cases, deaths, regional hospitalizations, and other surveillance data. </li>
+        <li> Next, we analyze counties  by socioeconomic status to identify low-income or economically disadvantaged communities.</li>
+        <li> Data on local hospital conditions is broken down by our software. Our software takes into account the number of licensed beds, number of staffed beds, number of ICU beds, potential increase in bed capacity, average ventilator usage, and other information. These factors can help our AI software determine the hospitals that have the most urgency for supplies. </li>
+        <li> Respective hospitals and addresses are pooled out. Our algorithms also gather quantitative insights that we share with manufacturing companies for more efficient and equitable distribution of medical supplies. </li>
+      </ol>
+      <img src="masks.jpg" alt="Masks" class = "center" width = "300px" height = "300px" >
+    </div>
+    <div class="parallax"></div>
+    <div style="height:220px; background-color: #000000;color:#40E0D0;">
+      <h1 style = "text-align:center; padding-top: 10px;"> The Algorithms We Use </h1> 
+      <p style = "text-align: center; font-size: 20px; padding-top: 10px; padding-right: 100px; padding-bottom: 10px; padding-left: 100px;"> Our software involves a variety of AI models like K-means clustering, Random Forest Model,a nd neural networks to carry out its complex analysis and deliver the final classification of hospitals that are in great need for supplies. </p>
+    <div class="parallax"></div>
+      
+    
+    <!-- TODO: Continue to add content to your homepage using your wireframe as a guide.-->
+    <!-- TODO: Add a <div> container around sections of your homepage. -->
+    
+    
+    
+    
+    
+    <!-- TODO: Add a navigation bar  -->
+    
+    
+    
+    
+    
+  </body>
+</html>
