@@ -4,3 +4,27 @@
   margin-right: auto;
   width: 50%;
 }
+
+ul {
+  list-style-type: none;
+  background-color: #42c2f5;
+}
+
+li {
+  display: inline;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+li a:hover {
+  background-color: #42f5e6;
+}
