@@ -6,6 +6,10 @@
 }
 
 ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
   list-style-type: none;
   background-color: #42c2f5;
 }
@@ -19,6 +23,7 @@ li:last-child {
 }
 
 li a {
+  font-family: cursive;
   color: white;
   text-decoration: none;
   text-align: center;
